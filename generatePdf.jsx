@@ -6,7 +6,7 @@ const generatePdf = async (budget) => {
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `orcamento-${budget.customerName.replace(/\s+/g, '_')}.pdf`;
+  a.download = `orcamento-${budget.clientName.replace(/\s+/g, '_')}.pdf`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);

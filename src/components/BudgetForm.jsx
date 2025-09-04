@@ -36,10 +36,10 @@ const BudgetForm = () => {
 
     const budgetData = {
       // number: newBudgetNumber,
-      customerName,
-      customerEmail,
-      customerPhone,
-      customerAddress,
+      clientName: customerName,
+      clientEmail: customerEmail,
+      clientContact: customerPhone,
+      clientAddress: customerAddress,
       companyName,
       companyCnpj,
       companyAddress,
