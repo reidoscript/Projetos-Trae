@@ -7,7 +7,7 @@ function App() {
   const [documentType, setDocumentType] = useState('budget');
 
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: '#242424', minHeight: '100vh' }}>
       <header className="App-header">
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <h1>Gerador de Documentos</h1>
